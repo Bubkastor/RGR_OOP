@@ -35,7 +35,10 @@ public:
 	{
 		return PI * m_radius * m_radius * m_height;
 	}
-	void Accept(IGeometryObjectVisitor &visitor);
+	void Accept(IGeometryObjectVisitor &visitor)
+	{
+		visitor.Visit(this);
+	}
 private:
 	CPoints m_pCentr;
 	double m_radius;

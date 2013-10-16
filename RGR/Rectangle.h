@@ -42,7 +42,10 @@ public:
 		return (m_height * m_width);
 	}
 
-	void Accept(IGeometryObjectVisitor &visitor);
+	void Accept(IGeometryObjectVisitor &visitor)
+	{
+		visitor.Visit(this);
+	}
 private:
 	double m_height;
 	double m_width;

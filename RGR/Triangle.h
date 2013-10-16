@@ -42,7 +42,10 @@ public:
 		double p = GetPerimetr() * 0.5;
 		return sqrt(p * (p - GetLenght(m_point1, m_point2)) * (p - GetLenght(m_point2, m_point3)) * (p - GetLenght(m_point3, m_point1)));
 	}
-	void Accept(IGeometryObjectVisitor &visitor);
+	void Accept(IGeometryObjectVisitor &visitor)
+	{
+		visitor.Visit(this);
+	}
 private:
 	CPoints m_point1;
 	CPoints m_point2;

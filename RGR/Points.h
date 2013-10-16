@@ -45,7 +45,10 @@ public:
 		return 0;
 	}
 
-	void Accept(IGeometryObjectVisitor &visitor);
+	void Accept(IGeometryObjectVisitor &visitor)
+	{
+		visitor.Visit(this);
+	}
 private:
 	double m_x;
 	double m_y;

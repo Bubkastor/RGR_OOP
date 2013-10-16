@@ -35,7 +35,10 @@ public:
 	double GetSurface()
 	{
 		return 4 * PI * m_radius * m_radius;
-	}	void Accept(IGeometryObjectVisitor &visitor);
+	}	void Accept(IGeometryObjectVisitor &visitor)
+	{
+		visitor.Visit(this);
+	}
 private:
 	double m_radius;
 	CPoints m_pCentr;
