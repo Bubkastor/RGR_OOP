@@ -2,7 +2,6 @@
 #define IGEOMETRYOBJECT_H
 #define PI 3.141592
 #include <string>
-#include "IGeometryObjectVisitor.h"
 using namespace std;
 class IGeometryObject
 {
@@ -15,7 +14,7 @@ public:
 	virtual ~IGeometryObject()
 	{
 	}
-	virtual void Accept(IGeometryObjectVisitor &visitor) = 0;
+	virtual void Accept(class IGeometryObjectVisitor &v) = 0;
 
 };
 #endif
