@@ -16,12 +16,12 @@
     <Filter Include="Заголовочные файлы\Классы">
       <UniqueIdentifier>{b655f8aa-ff6a-446c-91bf-050c042f95c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Заголовочные файлы\Визитор">
+      <UniqueIdentifier>{ecffe6f0-6196-4892-b855-ea5a7aa6113d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Visitor.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,9 +36,6 @@
       <Filter>Заголовочные файлы\Классы</Filter>
     </ClInclude>
     <ClInclude Include="Cylinder.h">
-      <Filter>Заголовочные файлы\Классы</Filter>
-    </ClInclude>
-    <ClInclude Include="Points.h">
       <Filter>Заголовочные файлы\Классы</Filter>
     </ClInclude>
     <ClInclude Include="Sphere.h">
@@ -56,14 +53,19 @@
     <ClInclude Include="IGeometryObjectVisitor.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="GeometryObjectToJSONSerializer.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
     <ClInclude Include="GeometryObjectToXMLSerializer.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\Визитор</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryObjectToJSONSerializer.h">
+      <Filter>Заголовочные файлы\Визитор</Filter>
+    </ClInclude>
+    <ClInclude Include="Points.h">
+      <Filter>Заголовочные файлы\Классы</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <Text Include="output.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>

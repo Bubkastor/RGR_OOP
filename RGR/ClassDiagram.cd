@@ -1,31 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CGeometryObjectToJSONSerializer">
-    <Position X="3.5" Y="2" Width="1.5" />
+  <Class Name="IGeometryObject" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GeometryObjectToJSONSerializer.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="IGeometryObject">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>IGeometryObject.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="IGeometryObjectVisitor">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+  <Class Name="IShape" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IGeometryObjectVisitor.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiEAAAgAA=</HashCode>
+      <FileName>IShape.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CPoints">
-    <Position X="0.5" Y="2.25" Width="1.5" />
+  <Class Name="CCircle" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAAAAAAAAgAAAAAUAAAAAAAAAACEAgABAA=</HashCode>
+      <HashCode>AQBAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAACEAhAAAA=</HashCode>
+      <FileName>Circle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRectangle" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACBAAABAAAAAARAAAAAAACAAAACEEAAEAA=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTriangle" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAIAAAAAAAAAgQAAAAAAACAASEQAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IBody">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAQAAAAAAEA=</HashCode>
+      <FileName>IBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPoints" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAUAAAAAAAAAACEAgAAAA=</HashCode>
       <FileName>Points.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSphere" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIAAIAAAAAAAAAAQAACAAAAABAEAgAAAA=</HashCode>
+      <FileName>Sphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCylinder" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAIAAABAAAAABBAAAAAAAAAAAAIAAgAAAA=</HashCode>
+      <FileName>Cylinder.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
