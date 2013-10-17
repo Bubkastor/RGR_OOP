@@ -1,4 +1,5 @@
-#pragma once
+#ifndef POINTS_H
+#define POINTS_H
 #include "IGeometryObject.h"
 class CPoints :
 	public IGeometryObject
@@ -54,4 +55,4 @@ private:
 	double m_y;
 	double m_z;
 };
-
+#endif

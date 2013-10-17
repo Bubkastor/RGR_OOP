@@ -1,4 +1,5 @@
-#pragma once
+#ifndef IGEOMETRYOBJECT_H
+#define IGEOMETRYOBJECT_H
 #define PI 3.141592
 #include <string>
 #include "IGeometryObjectVisitor.h"
@@ -17,4 +18,4 @@ public:
 	virtual void Accept(IGeometryObjectVisitor &visitor) = 0;
 
 };
-
+#endif
