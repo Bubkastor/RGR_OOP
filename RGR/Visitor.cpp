@@ -6,7 +6,7 @@
 #include "Sphere.h"
 #include "Triangle.h"
 #include "IGeometryObjectVisitor.h"
-//
+
 void CPoints::Accept(IGeometryObjectVisitor &v)
 {
 	v.Visit(this);
